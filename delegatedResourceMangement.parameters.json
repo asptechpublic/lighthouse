@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "Aspire Technology Solutions - Azure Managed Services"
+        },
+        "mspOfferDescription": {
+            "value": "Aspire Technology Solutions - Azure Managed Services"
+        },
+        "managedByTenantId": {
+            "value": "df3546e4-467d-4897-bed2-67499de2c67d"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "785876da-64ef-4d0c-b8a6-71231932329d",
+                    "principalIdDisplayName": "Tier 3 Support",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                },
+                {
+                    "principalId": "ace706e1-58b0-4e7a-adb7-8394e46800f9",
+                    "principalIdDisplayName": "Tier 2 Support",
+                    "roleDefinitionId": "36243c78-bf99-498c-9df9-86d9f8d28608"
+                },
+                {
+                    "principalId": "f47c22b2-83dc-4f30-8803-1faf9626889c",
+                    "principalIdDisplayName": "Tier 1 Support",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                }
+                
+            ]
+        }
+    }
+}
